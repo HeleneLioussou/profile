@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(250,250,250);
+  font-family: 'Abel', sans-serif;
+  color: rgb(70,70,70);
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 20px;
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-style: bold;
+  font-size: 15px;
+  line-height: 10px;
+  font-family: 'Karla', sans-serif;
+  color: #4E598C;
+  text-align: center;
+}
+
+p {
+  font-family: 'Abel', sans-serif;
+  color: rgb(50, 50, 50);
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(150,150,150)
+  opacity: 0,7;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+ul li {
+  display: inline;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.container {
+  text-align: center;
+}
+
+.presentation {
+  background: rgb(210,210,210);
+  text-align: center;
+  padding: 20px;
+  margin: 20px 30px;
+}
+
+.icons {
+  text-align: center;
+  background: rgb(210,210,210);
+  padding: 10px;
+  margin: 20px 30px;
+}
+
+#profilpic {
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px rgb(100,100,100);
+}
+
+.table {
+  background: rgb(210,210,210);
+  padding: 10px;
+  margin: 20px 30px;
+}
+
+.image {
+    width : 260px;
+    text-align: center;
+}
+.row{
+  text-align: left;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 700px;
+  }
